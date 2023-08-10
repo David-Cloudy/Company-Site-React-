@@ -14,7 +14,7 @@ const NavigationList = () => {
         </a>
       </li>
       <li>
-        <a className={styles.navAnchorDisabled} href="#">
+        <a className={styles.navAnchorDisabled} href="#offerSection">
           kontakt
         </a>
       </li>
