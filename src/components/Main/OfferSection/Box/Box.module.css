@@ -1,0 +1,46 @@
+.box {
+  background-color: whitesmoke;
+
+  width: 198px;
+  height: 194px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  inline-size: 198px;
+  word-break: break-all;
+
+  -webkit-box-shadow: 6px 18px 24px -6px rgba(1, 1, 16, 1);
+  -moz-box-shadow: 6px 18px 24px -6px rgba(1, 1, 16, 1);
+  box-shadow: 6px 18px 24px -6px rgba(1, 1, 16, 1);
+
+  transition-property: transform;
+  transition: 0.5s linear;
+
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.boxName {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.dot {
+  background-image: url("../../../../../public/assets/Icons/dot.svg");
+  width: 22px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: -11px;
+  left: -11px;
+}
+
+@media screen and (min-width: 1025px) {
+  .box:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+  }
+}

@@ -1,0 +1,49 @@
+.headerText {
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+
+  height: 100vh;
+
+  position: absolute;
+  margin: 0 auto;
+}
+
+.headerAnchor {
+  width: 164px;
+  height: 41px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  cursor: default;
+
+  text-decoration: none;
+  color: white;
+
+  font-size: 18px;
+  font-weight: 700;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1025px) {
+  .headerText {
+    gap: 70px;
+  }
+  .headerAnchor {
+    cursor: pointer;
+    transition-property: color background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+
+  .headerAnchor:hover {
+    background-color: white;
+    color: black;
+  }
+}

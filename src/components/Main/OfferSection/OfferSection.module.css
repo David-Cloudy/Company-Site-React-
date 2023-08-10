@@ -1,0 +1,35 @@
+.offerSection {
+  background-color: #405d78;
+  margin: 0;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.header {
+  color: white;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  gap: 60px;
+
+  padding-top: 82px;
+  padding-bottom: 14px;
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    text-align: start;
+  }
+
+  .boxes {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

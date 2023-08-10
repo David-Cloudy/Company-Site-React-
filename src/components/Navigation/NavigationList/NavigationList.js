@@ -4,19 +4,17 @@ const NavigationList = () => {
   return (
     <ul className={styles.navigationList}>
       <li>
-        <a className={styles.navAnchor} href="">
+        <a className={styles.navAnchor} href="#specialistsSection">
           o nas
         </a>
       </li>
       <li>
-        <a className={styles.navAnchor} href="">
+        <a className={styles.navAnchor} href="#offerSection">
           oferta
         </a>
       </li>
       <li>
-        <a className={styles.navAnchorDisabled} href="">
-          kontakt
-        </a>
+        <a className={styles.navAnchorDisabled}>kontakt</a>
       </li>
     </ul>
   );
