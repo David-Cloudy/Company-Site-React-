@@ -14,9 +14,8 @@ const NavigationList = () => {
         </a>
       </li>
       <li>
-        <a className={styles.navAnchorDisabled} href="">
-          kontakt
-        </a>
+        {/* Button-not  <a> because Netliy does not accept <a> without valid href  */}
+        <button className={styles.navAnchorDisabled}>kontakt</button>
       </li>
     </ul>
   );
