@@ -4,7 +4,7 @@ import Main from "./components/Main/Main";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 
-function CompanySite() {
+const CompanySite = () => {
   return (
     <div className={styles.companySite}>
       <Navigation />
@@ -13,6 +13,6 @@ function CompanySite() {
       <Footer />
     </div>
   );
-}
+};
 
 export default CompanySite;

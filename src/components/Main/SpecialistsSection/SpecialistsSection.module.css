@@ -14,12 +14,7 @@
   text-align: left;
 }
 
-.specialistsSectionContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
+.specialistsSectionContainer,
 .expertsList {
   display: flex;
   flex-direction: column;

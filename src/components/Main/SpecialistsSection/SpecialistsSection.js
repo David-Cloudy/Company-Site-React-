@@ -9,13 +9,13 @@ const SpecialistsSection = () => {
       <Container additionalClass={styles.specialistsSectionContainer}>
         <h2 className={styles.specHeading}>Nasi specjaliści</h2>
         <div className={styles.expertsList}>
-          {experts.map((expert) => (
+          {experts.map(({ name, position, description, photo }) => (
             <Expert
-              key={expert.name}
-              name={expert.name}
-              position={expert.position}
-              description={expert.description}
-              photo={expert.photo}
+              key={name}
+              name={name}
+              position={position}
+              description={description}
+              photo={photo}
             />
           ))}
         </div>
